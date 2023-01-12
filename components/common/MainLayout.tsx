@@ -1,6 +1,5 @@
 import React, { PropsWithChildren } from "react";
 import Navbar from "./Navbar";
-
 const MainLayout = ({ children }: PropsWithChildren) => {
   return (
     <>
@@ -9,5 +8,4 @@ const MainLayout = ({ children }: PropsWithChildren) => {
     </>
   );
 };
-
 export default MainLayout;

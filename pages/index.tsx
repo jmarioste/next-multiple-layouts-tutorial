@@ -1,6 +1,5 @@
-import { MyPage } from "components/common/types";
 import React from "react";
-
+import { MyPage } from "components/common/types";
 const HomePage: MyPage = () => {
   return (
     <div className="container">
@@ -14,7 +13,5 @@ const HomePage: MyPage = () => {
     </div>
   );
 };
-
 export default HomePage;
-
 HomePage.Layout = "Main";
