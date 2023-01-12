@@ -3,10 +3,10 @@ import AdminNavbar from "./AdminNavbar";
 
 const AdminLayout = (props: PropsWithChildren) => {
   return (
-    <div>
+    <>
       <AdminNavbar />
       {props.children}
-    </div>
+    </>
   );
 };
 
