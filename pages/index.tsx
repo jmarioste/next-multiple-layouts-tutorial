@@ -1,7 +1,7 @@
-import { NextPage } from "next";
+import { MyPage } from "components/common/types";
 import React from "react";
 
-const HomePage: NextPage = () => {
+const HomePage: MyPage = () => {
   return (
     <div className="container">
       <div className="grid place-content-center min-h-screen">
@@ -16,3 +16,5 @@ const HomePage: NextPage = () => {
 };
 
 export default HomePage;
+
+HomePage.Layout = "Main";
